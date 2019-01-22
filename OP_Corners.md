@@ -1,5 +1,7 @@
 # Y Perm (modified)
+```
 (R U' R' U') R U R' F' (R U R' U') R' F R
+```
 
 # Setup Moves
 These move a corner from a given position into (P) so that a Y perm can be applied
@@ -7,6 +9,7 @@ to swap it with (A). After undoing the setup move after the Y perm, (A) and (P) 
 now swapped. It is important that the setup move doesn't affect (A), (B), or (D),
 since the Y perm touches those.
 
+```
 - (A): Buffer cube
 
 - (B): R D'
@@ -54,3 +57,4 @@ since the Y perm touches those.
 - (W): D2 F'
 
 - (X): D F'
+```

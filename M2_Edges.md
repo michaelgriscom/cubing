@@ -4,12 +4,12 @@ to swap it with (A). After undoing the setup move after M2, (A) and (U) are
 now swapped. It is important that the setup move doesn't affect anything in the M slice
 since the M2 touches those.
 
+```
 - (A): M2
 
 - (B): R' U R U' M2 U R' U' R
 
 - (C): U2 M' U2 M'
-    - If C is even (an object) use W
 
 - (D): L U' L' U M2 U' L U L'
 
@@ -24,7 +24,6 @@ since the M2 touches those.
     - U' L' U M2 U' L U
 
 - (I): D M' U R2 U' M U R2 U' D' M2
-    - If I is even (object) use S
 
 - (J): U R U' M2 U R' U'
 
@@ -47,7 +46,6 @@ since the M2 touches those.
 - (R): U' L U M2 U' L' U
 
 - (S): M2 D U R2 U' M' U R2 U' M D'
-    - If S is even (object) use I
 
 - (T): U R' U' M2 U R U'
 
@@ -56,6 +54,6 @@ since the M2 touches those.
 - (V): U R2 U' M2 U R2 U'
 
 - (W): M U2 M U2
-    - If W is even (an object) use C
 
 - (X): U' L2 U M2 U' L2 U
+```

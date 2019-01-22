@@ -23,7 +23,7 @@ performed. If the strings have unequal parity then one of them was done incorrec
 ## Execution
 - Execute [M2 Edges](M2_Edges.md)
 - If the memo was of an odd length, perform the parity fix:
-    - (D' L2 D) M2 (D' L2 D)
+    - `(D' L2 D) M2 (D' L2 D)`
 - Execute [OP Corners](OP_Corners.md)
 
 # References
